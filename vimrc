@@ -1,6 +1,10 @@
+" Disable vi compatibility mode
+set nocompatible
+
 " Enable Pathogen
 call pathogen#infect()
 
+set encoding=utf-8
 " Window background
 set background=dark
 set hlsearch
@@ -29,9 +33,13 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
-" Configure plugins
+" Plugin configuration
 "
 
 " Powerline plugin
 " https://github.com/Lokaltog/vim-powerline
+"
+" Always show status line
 set laststatus=2
+" File has trailing whitespaces
+call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
