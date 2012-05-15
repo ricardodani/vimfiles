@@ -1,3 +1,4 @@
+" Enable Pathogen
 call pathogen#infect()
 
 " Window background
@@ -27,3 +28,10 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" Configure plugins
+"
+
+" Powerline plugin
+" https://github.com/Lokaltog/vim-powerline
+set laststatus=2
