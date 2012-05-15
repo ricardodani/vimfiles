@@ -1,3 +1,5 @@
+call pathogen#infect()
+
 " Window background
 set background=dark
 set hlsearch
@@ -6,6 +8,7 @@ set incsearch
 set number
 " Enable syntax highglight
 syntax on
+filetype plugin indent on
 
 " Emulate TextMate's shift left/right key commands
 nmap <D-[> <<
