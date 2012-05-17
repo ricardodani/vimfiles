@@ -43,3 +43,9 @@ set expandtab
 set laststatus=2
 " File has trailing whitespaces
 call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+
+" NERDTree
+" https://github.com/scrooloose/nerdtree
+autocmd vimenter * NERDTree
+autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
