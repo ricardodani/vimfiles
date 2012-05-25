@@ -33,6 +33,9 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+" On Python draw a red line on column limit
+au FileType python set colorcolumn=79
+
 " Plugin configuration
 "
 
@@ -49,3 +52,7 @@ call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
 autocmd vimenter * NERDTree
 autocmd vimenter * if !argc() | NERDTree | endif
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let NERDTreeIgnore=['\.o$', '\~$', '\.py[co]$']
+
+" Enable python folding
+let g:pymode_folding = 1
