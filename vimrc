@@ -15,6 +15,9 @@ set number
 syntax on
 filetype plugin indent on
 
+" Color scheme
+colorscheme torte
+
 " Emulate TextMate's shift left/right key commands
 nmap <D-[> <<
 nmap <D-]> >>
