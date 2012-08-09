@@ -58,3 +58,6 @@ let NERDTreeIgnore=['\.o$', '\~$', '\.py[co]$']
 
 " Enable python folding
 let g:pymode_folding = 1
+
+" Don't autoremove unused whitespaces
+let g:pymode_utils_whitespaces = 0
