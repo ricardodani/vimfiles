@@ -16,7 +16,7 @@ syntax on
 filetype plugin indent on
 
 " Color scheme
-colorscheme torte
+colorscheme solarized
 
 " Emulate TextMate's shift left/right key commands
 nmap <D-[> <<
