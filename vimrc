@@ -61,3 +61,7 @@ let g:pymode_folding = 1
 
 " Don't autoremove unused whitespaces
 let g:pymode_utils_whitespaces = 0
+
+" Nginx syntax highlight
+au BufRead,BufNewFile /usr/local/etc/nginx/* set ft=nginx 
+au BufRead,BufNewFile /Users/rcmachado/Developer/nginx-conf/* set ft=nginx 
