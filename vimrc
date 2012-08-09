@@ -24,6 +24,9 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 
+" Got to module/class/function definition
+map <leader>j :RopeGotoDefinition<CR>
+
 " Show invisible caracters
 set list
 set listchars=tab:▸\ ,eol:¬
