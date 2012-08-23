@@ -4,3 +4,6 @@
 [submodule "bundle/nginx-syntax-highlight"]
 	path = bundle/nginx-syntax-highlight
 	url = git://github.com/vim-scripts/nginx.vim.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
