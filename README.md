@@ -7,9 +7,12 @@ and submit a pull request if you found any bug.
 Instalation
 -----------
 
-    ~$ git clone https://github.com/rcmachado/vimfiles.git
-    ~$ ln -s vimfiles .vim
-    ~$ ln -s vimfiles/vimrc .vimrc
+    $ cd ~
+    $ git clone https://github.com/rcmachado/vimfiles.git
+    $ git submodule init
+    $ git submodule update
+    $ ln -s vimfiles .vim
+    $ ln -s vimfiles/vimrc .vimrc
 
 Plugins & Themes
 ----------------
