@@ -2,19 +2,19 @@ vimfiles
 ========
 
 These are the plugins and the vimrc file that I'm using. Feel free to fork it
-and submit a pull request if you found any bug.
+and use the way you want.
 
 Instalation
 -----------
 
     $ cd ~
-    $ git clone https://github.com/rcmachado/vimfiles.git
+    $ git clone https://github.com/ricardodani/vimfiles.git
     $ git submodule init
     $ git submodule update
     $ ln -s vimfiles .vim
     $ ln -s vimfiles/vimrc .vimrc
 
-Plugins & Themes
+Plugins
 ----------------
 
 * fugitive
@@ -23,10 +23,17 @@ Plugins & Themes
 * powerline
 * python-mode
 * vcl
+
+Colors
+----------------
+
 * vim-colors-solarized
-
-License
--------
-
-This project is licensed under MIT License (see LICENSE file for details). But
-each plugin has its own license, so check each one to see what you can do.
+* darkspectrum
+* darktango
+* inkpot
+* kellybeans
+* molokai
+* rdark
+* tetragrammaton
+* vilight
+* wombat
