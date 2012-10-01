@@ -4,6 +4,10 @@
 " Last change: 2012 Sep 19
 "
 
+" Window transparency
+" transparency of the text background as a percent
+set transparency=10
+
 " Use Vim settings, rather than Vi settings (much better!).
 " This must come first, because it changes other options as a side effect.
 set nocompatible
