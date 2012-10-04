@@ -4,10 +4,6 @@
 " Last change: 2012 Sep 19
 "
 
-" Window transparency
-" transparency of the text background as a percent
-set transparency=10
-
 " Use Vim settings, rather than Vi settings (much better!).
 " This must come first, because it changes other options as a side effect.
 set nocompatible
@@ -15,18 +11,6 @@ set nocompatible
 " Enable Pathogen
 call pathogen#infect()
 set encoding=utf-8
-
-" Window background
-set background=dark
-
-" Colorscheme
-" colorscheme molokai
-" colorscheme solarized
-" colorscheme vilight
-colorscheme inkpot 
-
-" Font family & size
-set guifont=Menlo\ 12
 
 " 80 char ruler
 au FileType python set colorcolumn=79
@@ -180,6 +164,29 @@ function! InsertTabWrapper(direction)
 endfunction
 inoremap <tab> <c-r>=InsertTabWrapper ("forward")<cr>
 inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>
+
+
+" Window transparency
+" transparency of the text background as a percent
+set transparency=10
+set nonumber
+
+" Window background
+" set background=dark
+set background=light
+
+" Colorscheme
+" colorscheme vilight
+" colorscheme inkpot 
+" colorscheme wombat-original
+" colorscheme molokai
+" colorscheme darkspectrum
+colorscheme solarized
+
+" Font family & size
+"set guifont=Menlo\ 12
+set guifont=Monaco\ 12
+"set noanti
 
 
 "" Disable vi compatibility mode
