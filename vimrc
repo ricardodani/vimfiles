@@ -168,12 +168,12 @@ inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>
 
 " Window transparency
 " transparency of the text background as a percent
-set transparency=10
+set transparency=0
 set nonumber
 
 " Window background
 " set background=dark
-set background=light
+set background=dark
 
 " Colorscheme
 " colorscheme vilight
