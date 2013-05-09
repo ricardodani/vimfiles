@@ -11,5 +11,5 @@
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vcl"]
-	path = bundle/vcl
-	url = git://github.com/smerrill/vcl-vim-plugin.git
+    path = bundle/vcl
+    url = git://github.com/smerrill/vcl-vim-plugin.git

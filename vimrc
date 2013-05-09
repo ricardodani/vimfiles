@@ -171,23 +171,23 @@ inoremap <s-tab> <c-r>=InsertTabWrapper ("backward")<cr>
 set transparency=0
 set nonumber
 
-" Window background
-" set background=dark
-set background=dark
-
 " Colorscheme
 " colorscheme vilight
 " colorscheme inkpot 
 " colorscheme wombat-original
 " colorscheme molokai
 " colorscheme darkspectrum
-colorscheme solarized
+" colorscheme solarized
+colorscheme darktango
+
+" Window background
+" set background=dark
+set background=dark
 
 " Font family & size
 "set guifont=Menlo\ 12
-set guifont=Monaco\ 12
+set guifont=Monaco\ 10
 "set noanti
-
 
 "" Disable vi compatibility mode
 "set nocompatible
